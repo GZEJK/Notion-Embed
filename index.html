@@ -12,13 +12,32 @@
 
 
         .box{
-            border-radius: 2px;
+            border-radius: 4px;
             height: 10vh;
             background-color: #252525;
+        }
+
+        .pfp{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            position: absolute;
+            object-fit: contain;
+            top: 100px;
+            left: 20px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
         }
     </style>
 </head>
 <body>
+    <nav>
     <div class="box">Box</div>
+    </nav>
+
+    <main>
+        <div class="pfp"><img src="pfp.jpg" alt="Profile"></div>
+        <div class="info"></div>
+    </main>
 </body>
 </html>
